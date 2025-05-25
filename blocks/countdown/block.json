@@ -1,0 +1,32 @@
+{
+	"name": "acf/eg-countdown",
+	"title": "Countdown",
+	"description": "Live countdown timer",
+	"editorStyle": "",
+	"editorScript": "",
+	"category": "egy-block",
+	"icon": "backup",
+	"apiVersion": 2,
+	"keywords": [ "banner", "countdown", "block" ],
+	"acf": {
+		"mode": "auto",
+		"renderTemplate": "render.php",
+        "postTypes": ["post", "page"]
+	},
+    "supports": {
+        "align": false,
+        "anchor": false,
+        "color": false,
+        "customClassName": true,
+        "jsx": false,
+		"multiple": false
+    },
+	"example": {
+        "attributes": {
+            "mode": "preview",
+            "data": {
+                "_is_preview": "true"
+            }
+        }
+    }
+}

@@ -1,0 +1,31 @@
+{
+	"name": "acf/eg-action-popup",
+	"title": "Action Popup",
+	"description": "Action popup with image and text content, run on button click",
+	"editorStyle": "",
+	"editorScript": "",
+	"category": "easy-block",
+	"icon": "superhero-alt",
+	"apiVersion": 2,
+	"keywords": [ "popup", "block" ],
+	"acf": {
+		"mode": "auto",
+		"renderTemplate": "render.php",
+        "postTypes": ["post", "page"]
+	},
+    "supports": {
+        "align": false,
+        "anchor": false,
+        "color": false,
+        "customClassName": true,
+        "jsx": false
+    },
+	"example": {
+        "attributes": {
+            "mode": "preview",
+            "data": {
+                "_is_preview": "true"
+            }
+        }
+    }
+}

@@ -1,0 +1,31 @@
+{
+	"name": "acf/eg-auto-popup",
+	"title": "Auto Popup",
+	"description": "Auto popup window with image and text content",
+	"editorStyle": "",
+	"editorScript": "",
+	"category": "easy-block",
+	"icon": "superhero",
+	"apiVersion": 2,
+	"keywords": [ "popup", "block" ],
+	"acf": {
+		"mode": "auto",
+		"renderTemplate": "render.php",
+        "postTypes": ["post", "page"]
+	},
+    "supports": {
+        "align": false,
+        "anchor": false,
+        "color": false,
+        "customClassName": true,
+        "jsx": false
+    },
+	"example": {
+        "attributes": {
+            "mode": "preview",
+            "data": {
+                "_is_preview": "true"
+            }
+        }
+    }
+}

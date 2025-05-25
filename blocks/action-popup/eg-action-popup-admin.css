@@ -1,0 +1,12 @@
+.egacf-action-popup-block {
+    box-sizing: border-box;
+    display: block;
+    position: static;
+    height: auto;
+}
+.egacf-action-popup-block .container.scroll-style {
+    transform: none;
+}
+.egacf-action-popup-block .modal-header {
+    background-color: rgba(0,0,0,.1);
+}

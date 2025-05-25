@@ -1,0 +1,70 @@
+/* Counter style */
+
+#timer {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin: 20px 0;
+    align-items: flex-end;
+    flex-wrap: wrap;
+}
+#timer > div {
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(0,0,0,.02);
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 80px;
+    text-align: center;
+}
+#timer > div span{
+    font-size: 20px;
+}
+#timer #days {
+    color: #db4844;
+}
+#timer #hours {
+    color: #f07c22;
+}
+#timer #minutes {
+    color: #f6da74;
+}
+#timer #seconds {
+    font-size: 50px;
+    color: #abcd58;
+}
+
+@media only screen and ( max-width: 961px) {
+    #timer > div{
+        font-size: 50px;
+    }
+    #timer #seconds{
+        font-size: 40px;
+    }
+}
+@media only screen and ( max-width: 560px) {
+    #timer {
+        gap: 10px;
+    }
+    #timer > div{
+        font-size: 40px;
+    }
+    #timer > div span{
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 428px){
+    #timer {
+        gap: 5px;
+    }
+    #timer > div {
+        font-size: 35px;
+    }
+    #timer #seconds {
+        font-size: 20px;
+    }
+    #timer > div span {
+        font-size: 12px;
+    }
+}
