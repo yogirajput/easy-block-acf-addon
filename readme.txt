@@ -17,6 +17,9 @@ To utilize the full capabilities of Gutenberg Block – ACF Pro Addon, it is ess
 = Available blocks =
 * Hero Banner
 * Countdown
+* Carsuel
+* Accordian
+* Auto Popup
 = New blocks are coming soon... =
 
 
