@@ -50,19 +50,19 @@ function egyacf_blocks_parent_plugin_notice() { ?>
 	include_once(EGY_PLUGIN_PATH . "blocks/hero-banner/block.php");
 
 	//auto popup block
-   // include_once(EGY_PLUGIN_PATH . "blocks/auto-popup/block.php");
+    include_once(EGY_PLUGIN_PATH . "blocks/auto-popup/block.php");
 
 	//carousal block
-    //include_once(EGY_PLUGIN_PATH . "blocks/carousel/block.php");
+    include_once(EGY_PLUGIN_PATH . "blocks/carousel/block.php");
 
 	//accordion block
-    //include_once(EGY_PLUGIN_PATH . "blocks/accordion/block.php");
+    include_once(EGY_PLUGIN_PATH . "blocks/accordion/block.php");
 
 	//countdown block
     include_once(EGY_PLUGIN_PATH . "blocks/countdown/block.php");
 
 	//Action popup block
-    //include_once(EGY_PLUGIN_PATH . "blocks/action-popup/block.php");
+    include_once(EGY_PLUGIN_PATH . "blocks/action-popup/block.php");
  }
  add_action( 'init', 'egyacf_register_block' );
 
